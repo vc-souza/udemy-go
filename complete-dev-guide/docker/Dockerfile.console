@@ -1,5 +1,0 @@
-FROM golang:1.18.0-bullseye
-
-WORKDIR /usr/src/code
-
-ENTRYPOINT ["tail", "-f", "/dev/null"]
